@@ -1,6 +1,7 @@
 # error.log
 *.log
+# for ingnore inner and outer folder
 # directory/
 # if you what to ingore only outer directory folder
-/directory/ 
+# /directory/ 
 check/directory
