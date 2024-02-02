@@ -1,1 +1,6 @@
-error.log
+# error.log
+*.log
+# directory/
+# if you what to ingore only outer directory folder
+/directory/ 
+check/directory
