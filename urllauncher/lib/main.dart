@@ -1,26 +1,27 @@
-// ignore_for_file: duplicate_ignore
+// ignore_for_file: duplicate_ignore, deprecated_member_use, avoid_print
 
-import 'package:flutter/material.dart';
-import 'package:urllauncher/home.dart';
+// import 'package:flutter/material.dart';
+// import 'package:urllauncher/home.dart';
 
-void main() => runApp(const MyPage());
+// void main() => runApp(const MyPage());
 
-class MyPage extends StatelessWidget {
-  const MyPage({Key? key}) : super(key: key);
+// class MyPage extends StatelessWidget {
+//   const MyPage({Key? key}) : super(key: key);
 
-// ignore_for_file: deprecated_member_use, avoid_print
+// // ignore_for_file: deprecated_member_use, avoid_print
 
-// ignore_for_file: avoid_print, deprecated_member_use, prefer_const_constructors
+// // ignore_for_file: avoid_print, deprecated_member_use, prefer_const_constructors
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Url Launcher',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       title: 'Url Launcher',
+//       theme: ThemeData(
+//         primarySwatch: Colors.blue,
+//       ),
+//       home: const MyHomePage(),
+//     );
+//   }
+// }
+// ***************************************************************************

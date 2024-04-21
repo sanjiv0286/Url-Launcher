@@ -1,4 +1,3 @@
-// **********************************************************************************************
 // ******************************Open in app******************************************
 // import 'package:flutter/material.dart';
 // import 'package:url_launcher/url_launcher.dart';
@@ -23,11 +22,9 @@
 //   }
 // }
 
-
-
 // ignore_for_file: deprecated_member_use
 
-// ****************************** Open Url in browser by user input*******************************************************
+// ****************** Open Url in browser by user input*************************
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -98,7 +95,10 @@ class _MyHomePageState extends State<MyHomePage> {
         setState(() {
           _errorMessage = ''; // Clear any previous error message
         });
-        await launch(url);
+        await launch(
+          // forceWebView: true,
+          url,
+        );
       } else {
         setState(() {
           _errorMessage = 'Invalid URL';
